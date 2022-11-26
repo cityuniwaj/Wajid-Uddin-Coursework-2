@@ -1,0 +1,182 @@
+@font-face{
+    font-family: 'Filosofia OT Regular';
+    src: url('../fonts/FilosofiaOTRegular/Filosofia\ OT\ Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background{
+    background-color: black;
+    background-image: url("../images/Restaurantbg.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Filosofia\ OT\ Regular;
+    letter-spacing: 1px;
+}
+
+.navbar{
+    display: inline;
+    padding: 30px;
+}
+
+
+.top{
+    width: 95%;
+    border-collapse: collapse;
+    margin: 10px 35px;
+}
+
+
+.backbtn{
+    padding: 10px;
+}
+
+
+.img1{
+    height: 20px;
+    padding: 6px;
+}
+
+
+.img2{
+    height: 34px;
+    padding-left: 10px;
+}
+
+
+nav{
+    font-size: 24px;
+    color: white;
+    display: inline;
+    padding: 20px;
+}
+
+
+nav a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+nav a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+.Resbtn{
+    background-color: white;
+    border: none;
+    color: black;
+    font-family: Filosofia\ OT\ Regular;
+    padding: 6px 12px 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+a:link{
+    text-decoration: none;
+}
+
+
+.wrapper{
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+}
+
+
+.img3{
+    width: 250px;
+    padding: 50px;
+}
+
+
+.text{
+    font-size: 24px;
+    line-height: 35px;
+    color: rgb(31, 31, 31);
+}
+
+
+.bookbtn{
+    background-color: transparent;
+    font-family: Filosofia\ OT\ Regular;
+    font-size: 24px;
+    letter-spacing: 3px;
+    border: 1px solid black;
+    color: rgb(31, 31, 31);
+    padding: 15px 0px 15px 0px;
+    width: 220px;
+    margin-top: 20px;
+}
+
+.bookbtn:hover{
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+.regulator{
+    opacity: 0;
+}
+
+
+.bottom{
+    margin: 30px 40px;
+    width: 95%;
+    font-size: 24px;
+    color: white;
+}
+
+
+.bottom a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.bottom a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .Resbtn, nav, .bottom{
+      font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Resbtn, nav, .bottom{
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Resbtn, nav, .bottom{
+      font-size: 16px;
+    }
+}

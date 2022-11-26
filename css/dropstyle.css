@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background{
+    background-color: white;
+    background-image: url("../images/background2.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.Xbtn{
+    display: inline;
+    padding: 30px;
+}
+
+
+.top{
+    width: 95%;
+    border-collapse: collapse;
+    margin: 10px 35px;
+}
+
+
+.LucaHead{
+    text-align: center;
+}
+
+
+.list{
+    width: 95%;
+    border-collapse: collapse;
+    margin: 95px 35px 0px 35px;
+}
+
+.list, tr{
+    height: 69px;
+}
+
+.type1, .type2{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.type1:hover{
+    opacity: 1;
+}
+
+.type2:hover{
+    opacity: 1;
+}
+
+.type1{
+    height: 60px;
+
+}
+.type2{
+    height: 50px;
+}

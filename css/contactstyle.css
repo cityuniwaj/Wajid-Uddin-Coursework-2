@@ -1,0 +1,121 @@
+@font-face{
+    font-family: 'Filosofia OT Regular';
+    src: url('../fonts/FilosofiaOTRegular/Filosofia\ OT\ Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.background{
+    background-color: #E9E3A4;
+}
+
+
+.backbtn{
+    padding: 10px;
+}
+
+
+.img1{
+    height: 20px;
+    padding: 6px;
+}
+
+
+.img2{
+    height: 34px;
+    padding-left: 10px;
+}
+
+
+.main{
+    text-align: center;
+    font-family: Filosofia\ OT\ Regular;
+}
+
+
+h2{
+    margin-top:  130px;
+    letter-spacing: 2px;
+    color: rgb(19, 19, 19);
+}
+
+
+.textwrapper{
+    margin: 40px 40px 50px 40px;
+}
+
+
+.text{
+    color: rgb(29, 29, 29);
+    font-size: 16px;
+    line-height: 0.6;
+    margin: 30px;
+}
+
+
+input{
+    background-color: #E9E3A4;
+    font-family: Filosofia\ OT\ Regular;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-top: 14px;
+    width: 275px;
+    margin: 5px;
+}
+
+input::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+
+button{
+    background-color: #E9E3A4;
+    font-family: Filosofia\ OT\ Regular;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 13px;
+    padding: 10px;
+    width: 130px;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: #faf6c6;
+    cursor: pointer;
+}
+
+
+svg{
+    width: 350px;
+    margin: 80px 50px 80px 50px;
+    fill: #fffbcd;
+}
+
+svg:hover{
+    fill: white;
+    cursor: pointer;
+}
+
+
+.linklist a:link{
+    color: #c7c291;
+    background-color: transparent;
+    text-decoration: none;
+}
+.linklist a:visited{
+    color: #c7c291;
+    background-color: transparent;
+    text-decoration: none;
+}
+.linklist a:hover{
+    color: #7e7b61;
+}
+
+a:link{
+    text-decoration: none;
+}

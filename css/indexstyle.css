@@ -1,0 +1,115 @@
+@font-face{
+    font-family: 'Filosofia OT Regular';
+    src: url('../fonts/FilosofiaOTRegular/Filosofia\ OT\ Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background{
+    background-color: black;
+    background-image: url("../images/background.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Filosofia\ OT\ Regular;
+    letter-spacing: 1px;
+}
+
+
+.navbar{
+    display: inline;
+    padding: 30px;
+}
+
+
+.top{
+    width: 95%;
+    border-collapse: collapse;
+    margin: 10px 35px;
+}
+
+
+.Resbtn{
+    background-color: white;
+    border: none;
+    color: black;
+    font-family: Filosofia\ OT\ Regular;
+    padding: 6px 12px 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+nav{
+    font-size: 24px;
+    color: white;
+    display: inline;
+    padding: 20px;
+}
+
+
+.section-center{
+    margin: auto;
+    padding-top: 300px;
+
+}
+
+
+.logo{
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+}
+
+
+.bottom{
+    margin: 337px 40px;
+    width: 95%;
+    font-size: 24px;
+    color: white;
+}
+
+
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .Resbtn, nav, .bottom{
+      font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Resbtn, nav, .bottom{
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Resbtn, nav, .bottom{
+      font-size: 16px;
+    }
+}
