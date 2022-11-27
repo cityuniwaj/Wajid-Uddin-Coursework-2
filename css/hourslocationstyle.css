@@ -1,0 +1,103 @@
+@font-face{
+    font-family: 'Filosofia OT Regular';
+    src: url('../fonts/FilosofiaOTRegular/Filosofia\ OT\ Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background{
+    background-color: #4D708E;
+    font-family: Filosofia\ OT\ Regular;
+    letter-spacing: 1px;
+}
+
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+}
+
+
+.backbtn{
+    padding: 10px;
+    text-align: left;
+}
+
+.backbtn a{
+    text-decoration: none;
+}
+
+
+.img1{
+    height: 20px;
+    padding: 6px;
+}
+
+
+.img2{
+    height: 34px;
+    padding-left: 10px;
+}
+
+
+.img3{
+    width: 450px;
+    padding: 30px;
+}
+
+
+.text{
+    font-size: 22px;
+    line-height: 35px;
+    color: rgb(255, 255, 255);
+}
+
+
+.mapbtn{
+    background-color: transparent;
+    font-family: Filosofia\ OT\ Regular;
+    font-size: 24px;
+    letter-spacing: 3px;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 15px 0px 15px 0px;
+    width: 220px;
+    margin-top: 20px;
+}
+
+
+.mapbtn a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.mapbtn a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.mapbtn:hover{
+    background-color: #709abe;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+iframe{
+    width: 50vw;
+    height: 99vh;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
